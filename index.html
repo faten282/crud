@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+<h1 class="title">CURD Application</h1>
+<div class="studentadded" id="studentadded">Student Added</div>
+<div class="ourform">
+<form action="/" method="get">
+<div class="labelaninput">
+<label for="fname" class="labelstyles" >First Name</label>
+<input type="text" name="name"  id="fname"    class="inputstyels" required>
+</div>
+<div class="labelaninput">
+<label for="lname" class="labelstyles">Last Name</label>
+<input type="text" name="name" id="lname" class="inputstyels" required>
+</div>
+<div class="labelaninput ">
+<label for="Rno" class="labelstyles">Roll No</label>
+<input type="number" name="name"  id="Rno" class="inputstyels" required>
+</div>
+
+<button type="submit" id="sub" class="btn">Submit</button>
+
+</form>
+</div>
+<table class="tstyels" >
+<tr class="frow">
+<th>First Name</th>
+<th>Last Name</th>
+<th>Roll No</th>
+<th>Action</th>
+</tr>
+<tbody id="tabel">
+</tbody>
+</table>
+
+</div>
+<script src="main.js"></script>
+</body>
+</html>
