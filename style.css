@@ -121,3 +121,43 @@
     display: none;
   
 }
+@media (max-width :1000px) {
+    .title{
+        font-size: 1.3rem;
+    }
+    .inputstyels{
+        width: 200px;
+    }
+    .tstyels{
+   width: 300px;
+    }
+    .btn-edit{
+     margin: 0.5rem;
+    }
+    .btn-delete{
+        margin-bottom:0.5rem;
+    }
+    .studentadded{
+        width: 200px;
+    }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
